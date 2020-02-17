@@ -2,7 +2,6 @@
 
 [Click Here on Firefox To Install]()
 
-
 ## Legal Notice
 Please note that this software is meant only for legitimate educational and accessibility purposes. Any misuse violating Github Terms and Conditions for fake signups, stars, forks etc. are strictly denounced. Do consider ethical consequences of such actions before misusing this repo for such emoluments. 
 
@@ -10,7 +9,7 @@ Please note that this software is meant only for legitimate educational and acce
 
 ### Contextual Identities
 
-Lists existing identities, lets you create new tabs with an identity and remove all tabs from an identity. For more information on contextual identities: https://wiki.mozilla.org/Security/Contextual_Identity_Project/Containers
+Lists existing identities, lets you create new tabs with an identity and remove all tabs from an identity.
 
 ### Cypress
 
