@@ -3,7 +3,7 @@
 [Click Here on Firefox To Install]()
 
 ## Legal Notice
-Please note that this software is meant only for legitimate educational and accessibility purposes. Any misuse violating Github Terms and Conditions for fake signups, stars, forks etc. are strictly denounced. Do consider ethical consequences of such actions before misusing this repo for such emoluments. 
+Please note that this software is meant only for legitimate educational and accessibility purposes. Any misuse violating GitHub Terms and Conditions for fake signups, stars, forks etc. are strictly denounced. Do consider ethical consequences of such actions before misusing this repo for such emoluments. 
 
 ## What are its core components
 
