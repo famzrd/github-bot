@@ -6,7 +6,7 @@ Fasten GITHUB NO-API USER ACCOUNT ACTIONS
 
 
 ## Legal Notice
-Please note that the software is meant only for 'legitimate educational and accessibility' purposes. Any unlawful requests violating Github Terms and Conditions with 'automated/fake signups, stars, forks' etc. will be ignored. Do consider 'ethical consequences' of such actions on your projects before misusing this repo for such emoluments. Dig the source code for more info on technical features.
+Please note that the software is meant only for 'legitimate educational and accessibility' purposes. Any unlawful requests violating Github Terms and Conditions with 'automated/fake signups, stars, forks' etc. will be ignored. Do consider 'ethical consequences' of such actions on your projects before misusing this repo for such emoluments. Dig the source code for  info.
 
 ## What are its core components
 
