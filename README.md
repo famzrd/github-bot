@@ -1,5 +1,5 @@
 # github-stars
-Fasten GITHUB NO-API USER ACCOUNT ACTIONS
+> Fasten GITHUB NO-API USER ACCOUNT ACTIONS
 
 
 [Click Here on Firefox To Install]()
