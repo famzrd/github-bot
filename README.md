@@ -1,4 +1,4 @@
-# github-stars
+# github-bot
 
 [Click Here on Firefox To Install]()
 
