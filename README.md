@@ -2,7 +2,7 @@
 Fasten GITHUB NO-API USER ACCOUNT ACTIONS
 
 
-## Download and Install Latest Version on Firefox
+[Click Here on Firefox To Install]()
 
 
 ## Legal Notice
