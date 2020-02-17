@@ -20,4 +20,4 @@ Fast, easy, and reliable end-to-end testing/automation for anything that runs in
 
 ### 2captcha
 
-Online CAPTCHA Solving and Image Recognition Service
+Online CAPTCHA Solving and Image Recognition Service.
