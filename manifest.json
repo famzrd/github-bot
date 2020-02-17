@@ -1,0 +1,21 @@
+{
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "github-stars",
+    "default_popup": "context.html",
+    "default_icon": {
+      "128": "identity.png"
+    }
+  },
+  "homepage_url": "https://github.com/famzrd/github-stars",
+  "manifest_version": 2,
+  "name": "Contextual Identities",
+  "version": "0.0.0",
+  "permissions": [
+      "contextualIdentities",
+      "cookies"
+  ],
+  "icons": {
+    "128": "identity.svg"
+  }
+}
