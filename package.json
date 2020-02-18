@@ -22,6 +22,12 @@
   },
   "homepage": "https://github.com/famzrd/github-bot#readme",
   "devDependencies": {
-    "web-ext": "^4.1.0"
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "husky": "^4.2.3",
+    "standard": "^14.3.1",
+    "web-ext": "^4.1.0",
+    "webpack": "^4.41.6"
   }
 }
