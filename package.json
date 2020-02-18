@@ -17,10 +17,10 @@
     },
     "homepage": "https://github.com/famzrd/github-bot#readme",
     "scripts": {
-        "run": "npm-run-all --parallel build:scripts start:firefox",
+        "run": "npm-run-all --parallel build:scripts debug:firefox",
         "lint": "standard processors/*.js views/*.js --fix && web-ext lint",
         "build:scripts": "webpack",
-        "start:firefox": "web-ext run --pref privacy.userContext.enabled=true",
+        "debug:firefox": "web-ext run --pref privacy.userContext.enabled=true",
         "test": "echo \"Error: no test specified\" && exit 0",
         "release": "cross-env-shell \"web-ext sign --api-key $WEB_EXT_API_KEY --api-secret $WEB_EXT_API_SECRET\""
     },
