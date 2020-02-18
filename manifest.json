@@ -9,7 +9,7 @@
   },
   "homepage_url": "https://github.com/famzrd/github-stars",
   "manifest_version": 2,
-  "name": "Contextual Identities",
+  "name": "github-stars",
   "version": "0.0.0",
   "permissions": [
       "contextualIdentities",
