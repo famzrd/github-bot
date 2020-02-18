@@ -1,7 +1,7 @@
 {
   "browser_action": {
     "browser_style": true,
-    "default_title": "github-stars",
+    "default_title": "github-bot",
     "default_popup": "views/context.html",
     "default_icon": {
       "3600": "resources/icon.png"
@@ -9,7 +9,7 @@
   },
   "homepage_url": "https://github.com/famzrd/github-stars",
   "manifest_version": 2,
-  "name": "github-stars",
+  "name": "github-bot",
   "version": "0.0.0",
   "permissions": [
       "contextualIdentities",

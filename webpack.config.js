@@ -4,7 +4,7 @@ module.exports = {
   mode: 'none',
   watch: true,
   entry: {
-    drivers: './drivers/background.js',
+    processors: './processors/background.js',
     views: './views/context.js'
   },
   output: {
