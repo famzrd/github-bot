@@ -2,9 +2,9 @@
   "browser_action": {
     "browser_style": true,
     "default_title": "github-stars",
-    "default_popup": "context.html",
+    "default_popup": "views/context.html",
     "default_icon": {
-      "128": "identity.png"
+      "128": "resources/icon.png"
     }
   },
   "homepage_url": "https://github.com/famzrd/github-stars",
@@ -16,6 +16,6 @@
       "cookies"
   ],
   "icons": {
-    "128": "identity.svg"
+    "128": "resources/icon.png"
   }
 }
