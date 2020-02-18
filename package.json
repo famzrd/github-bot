@@ -1,0 +1,27 @@
+{
+  "name": "github-bot",
+  "version": "0.0.0",
+  "description": "Self-Serving GitHub Bots",
+  "main": "index.js",
+  "scripts": {
+    "start:firefox": "web-ext run --pref privacy.userContext.enabled=true",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/famzrd/github-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "github"
+  ],
+  "author": "famzrd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/famzrd/github-bot/issues"
+  },
+  "homepage": "https://github.com/famzrd/github-bot#readme",
+  "devDependencies": {
+    "web-ext": "^4.1.0"
+  }
+}
