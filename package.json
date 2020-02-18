@@ -18,13 +18,20 @@
     },
     "homepage": "https://github.com/famzrd/github-bot#readme",
     "scripts": {
-        "lint": "standard drivers/*.js views/*.js --fix",
+        "build": "webpack",
+        "lint": "standard drivers/*.js views/*.js --fix && web-ext lint",
         "start:firefox": "web-ext run --pref privacy.userContext.enabled=true",
         "test": "echo \"Error: no test specified\" && exit 0"
+    },
+    "webExt": {
+        "sourceDir": "."
     },
     "standard": {
         "globals": [
             "browser"
+        ],
+        "ignore": [
+          "*.bundle.js"
         ]
     },
     "husky": {
@@ -40,6 +47,7 @@
         "husky": "^4.2.3",
         "standard": "^14.3.1",
         "web-ext": "^4.1.0",
-        "webpack": "^4.41.6"
+        "webpack": "^4.41.6",
+        "webpack-cli": "^3.3.11"
     }
 }

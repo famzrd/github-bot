@@ -4,7 +4,7 @@
     "default_title": "github-stars",
     "default_popup": "views/context.html",
     "default_icon": {
-      "128": "resources/icon.png"
+      "3600": "resources/icon.png"
     }
   },
   "homepage_url": "https://github.com/famzrd/github-stars",
@@ -16,6 +16,6 @@
       "cookies"
   ],
   "icons": {
-    "128": "resources/icon.png"
+    "3600": "resources/icon.png"
   }
 }

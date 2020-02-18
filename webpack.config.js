@@ -3,14 +3,13 @@ const path = require('path')
  module.exports ={
     "mode": "none",
     "entry": {
-        drivers: 'drivers/background.js',
-        views: 'views/context.js',
+        drivers: './drivers/background.js',
+        views: './views/context.js',
     },
     "output": {
-        "path": path.resolve(__dirname, "dist"),
-        "filename": "[name].bundle.js"
+        "path": path.resolve(__dirname),
+        "filename": "[name]/[name].bundle.js"
     },
-    "devtool": "source-map",
     "module": {
         rules: [
             {
