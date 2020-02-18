@@ -7,7 +7,7 @@
       "3600": "resources/icon.png"
     }
   },
-  "homepage_url": "https://github.com/famzrd/github-stars",
+  "homepage_url": "https://github.com/famzrd/github-bot",
   "manifest_version": 2,
   "name": "github-bot",
   "version": "0.0.0",
