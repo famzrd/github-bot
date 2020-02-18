@@ -1,11 +1,11 @@
 function eventHandler (event) {
-  if (event.target.dataset.action == 'create') {
+  if (event.target.dataset.action === 'create') {
     browser.tabs.create({
       url: 'about:blank',
       cookieStoreId: event.target.dataset.identity
     })
   }
-  if (event.target.dataset.action == 'close-all') {
+  if (event.target.dataset.action === 'close-all') {
     browser.tabs.query({
       cookieStoreId: event.target.dataset.identity
     }).then((tabs) => {
