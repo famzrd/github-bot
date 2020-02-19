@@ -1,6 +1,6 @@
 # github-bot
 
-
+Self-Serving GitHub Bots
 
 ## Legal Notice
 Please note that this software is meant only for legitimate educational and accessibility purposes. Any misuse violating GitHub Terms and Conditions for host contamination are strictly denounced. 
