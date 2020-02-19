@@ -17,42 +17,20 @@
     },
     "homepage": "https://github.com/famzrd/github-bot#readme",
     "scripts": {
-        "run": "npm-run-all --parallel build:scripts debug:firefox",
-        "lint:js": "standard processors/*.js views/*.js --fix",
-        "lint:extension": "web-ext lint",
-        "build:scripts": "webpack",
-        "debug:firefox": "web-ext run --pref privacy.userContext.enabled=true",
-        "test": "echo \"Error: no test specified\" && exit 0",
-        "release": "cross-env-shell \"web-ext sign --api-key $WEB_EXT_API_KEY --api-secret $WEB_EXT_API_SECRET\""
-    },
-    "webExt": {
-        "sourceDir": ".",
-        "artifactsDir": "./downloads"
-    },
-    "standard": {
-        "globals": [
-            "browser"
-        ],
-        "ignore": [
-            "*.bundle.js"
-        ]
+        "run": "cross-env-shell \"cli command --api-secret $WEB_EXT_ --api-another-secret $API_SEC\"",
+        "lint": "standard processors/*.js views/*.js --fix",
+        "test": "echo \"Error: no test specified\" && exit 0"
     },
     "husky": {
         "hooks": {
-            "pre-commit": "npm-run-all --parallel lint:js lint:extension",
-            "pre-push": "npm-run-all --parallel lint:js lint:extension"
+            "pre-commit": "npm-run lint",
+            "pre-push": "npm-run lint"
         }
     },
     "devDependencies": {
-        "@babel/core": "^7.8.4",
-        "@babel/preset-env": "^7.8.4",
-        "babel-loader": "^8.0.6",
         "cross-env": "^7.0.0",
+        "cypress": "^4.0.2",
         "husky": "^4.2.3",
-        "npm-run-all": "^4.1.5",
-        "standard": "^14.3.1",
-        "web-ext": "^4.1.0",
-        "webpack": "^4.41.6",
-        "webpack-cli": "^3.3.11"
+        "standard": "^14.3.1"
     }
 }
