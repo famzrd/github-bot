@@ -20,24 +20,16 @@
         "run": "cross-env-shell \"cli command --api-secret $WEB_EXT_ --api-another-secret $API_SEC\"",
         "cy:run": "cross-env CYPRESS_CRASH_REPORTS=0 cypress run",
         "cy:open": "cross-env CYPRESS_CRASH_REPORTS=0 cypress open",
-        "lint": "standardx processes/*.js views/*.js cypress/**/*.js --fix",
+        "lint": "eslint processes/*.js views/*.js cypress/**/*.js --fix",
         "test": "echo \"Error: no test specified\" && exit 0"
     },
     "eslintConfig": {
-        "globals": {
-            "cy": true,
-            "it": true,
-            "Cypress": true,
-            "context": true,
-            "beforeEach": true,
-            "expect": true,
-            "localStorage": true,
-            "browser": true,
-            "describe": true,
-            "assert": true
-        },
+        "extends": [
+            "plugin:cypress/recommended"
+        ],
         "rules": {
-            "no-unused-expressions": "off"
+            "cypress/no-assigning-return-values": "off",
+            "cypress/no-unnecessary-waiting": "off"
         }
     },
     "husky": {
@@ -47,8 +39,9 @@
         }
     },
     "devDependencies": {
-        "husky": "^4.2.3",
-        "standardx": "^5.0.0"
+        "eslint": "^6.8.0",
+        "eslint-plugin-cypress": "^2.10.3",
+        "husky": "^4.2.3"
     },
     "dependencies": {
         "cross-env": "^7.0.0",
