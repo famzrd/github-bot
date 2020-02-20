@@ -20,7 +20,7 @@
         "run": "cross-env-shell \"cli command --api-secret $WEB_EXT_ --api-another-secret $API_SEC\"",
         "cy:run": "cross-env CYPRESS_CRASH_REPORTS=0 cypress run",
         "cy:open": "cross-env CYPRESS_CRASH_REPORTS=0 cypress open",
-        "lint": "standard processors/*.js views/*.js cypress/**/*.js --fix",
+        "lint": "standard processes/*.js views/*.js cypress/**/*.js --fix",
         "test": "echo \"Error: no test specified\" && exit 0"
     },
     "husky": {
