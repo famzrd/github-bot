@@ -18,7 +18,9 @@
     "homepage": "https://github.com/famzrd/github-bot#readme",
     "scripts": {
         "run": "cross-env-shell \"cli command --api-secret $WEB_EXT_ --api-another-secret $API_SEC\"",
-        "lint": "standard processors/*.js views/*.js --fix",
+        "cy:run": "cross-env CYPRESS_CRASH_REPORTS=0 cypress run",
+        "cy:open": "cross-env CYPRESS_CRASH_REPORTS=0 cypress open",
+        "lint": "standard processors/*.js views/*.js cypress/**/*.js --fix",
         "test": "echo \"Error: no test specified\" && exit 0"
     },
     "husky": {
@@ -28,9 +30,13 @@
         }
     },
     "devDependencies": {
-        "cross-env": "^7.0.0",
-        "cypress": "^4.0.2",
         "husky": "^4.2.3",
         "standard": "^14.3.1"
+    },
+    "dependencies": {
+        "cross-env": "^7.0.0",
+        "cypress": "^4.0.2",
+        "lodash": "^4.17.15",
+        "rxjs": "^6.5.4"
     }
 }
