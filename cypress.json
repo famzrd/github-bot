@@ -1,1 +1,8 @@
-{}
+{
+    "fixturesFolder": "__examples__/fixtures",
+    "integrationFolder": "__examples__/integration",
+    "pluginsFile": "__examples__/plugins/index.js",
+    "screenshotsFolder": "__examples__/screenshots",
+    "videosFolder": "__examples__/videos",
+    "supportFile": "__examples__/support/index.js"
+  }
