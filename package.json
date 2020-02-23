@@ -17,9 +17,9 @@
     },
     "homepage": "https://github.com/famzrd/github-bot#readme",
     "scripts": {
-        "run": "cross-env-shell \"cli command --api-secret $WEB_EXT_ --api-another-secret $API_SEC\"",
+        "run": "npm run cy:open",
         "cy:run": "cross-env CYPRESS_CRASH_REPORTS=0 cypress run",
-        "cy:open": "cross-env CYPRESS_CRASH_REPORTS=0 cypress open",
+        "cy:open": "cross-env CYPRESS_GITHUB_ACCESS_TOKEN=$OS CYPRESS_CRASH_REPORTS=0 cypress open",
         "lint": "eslint processes/*.js views/*.js __examples__/**/*.js --fix",
         "test": "echo \"Error: no test specified\" && exit 0"
     },

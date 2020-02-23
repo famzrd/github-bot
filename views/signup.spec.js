@@ -4,7 +4,7 @@ context('signup', () => {
   })
 
     it('Fills Github Signup Form', () =>{
-      cy.wait()
+      cy.log('hello')
     })
     
 })
