@@ -1,0 +1,11 @@
+{
+    "signup": {
+        "username": "username",
+        "email": "hello@email.com",
+        "password": "password"
+    },
+    "support": {
+        "subject": "account has been flagged",
+        "message": "I am seeing the message that my account has been flagged and is hidden from public. I think this is a mistake.\\n\\n Please restore my account to be public. I agree to always comply with Github Terms and Conditions, and Community Guidelines."
+    }
+}
