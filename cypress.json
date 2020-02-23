@@ -4,5 +4,6 @@
     "pluginsFile": "__examples__/plugins/index.js",
     "screenshotsFolder": "__examples__/screenshots",
     "videosFolder": "__examples__/videos",
-    "supportFile": "__examples__/support/index.js"
+    "supportFile": "__examples__/support/index.js",
+    "baseUrl": "https://github.com"
   }

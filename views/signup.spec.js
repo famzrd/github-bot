@@ -1,6 +1,6 @@
 context('signup', () => {
   beforeEach(() => {
-    cy.visit('https://github.com')
+    cy.visit('/')
   })
 
     it('Fills Github Signup Form', () =>{

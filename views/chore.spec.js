@@ -1,6 +1,6 @@
 context('chore', () => {
   beforeEach(() => {
-    cy.visit('https://github.com')
+    cy.visit('/')
   })
 
     it('Commits Access Token', () =>{
